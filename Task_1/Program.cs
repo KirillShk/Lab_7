@@ -25,13 +25,13 @@ namespace Task_1
             double y2 = Convert.ToInt32(Console.ReadLine());
             double z2 = Convert.ToInt32(Console.ReadLine());
             double S2 = GetAreaTriangle(x2, y2, z2);
-            Console.WriteLine("{0}, {1}", S1, S2);
+           // Console.WriteLine("{0:.00}, {1:.00}", S1, S2);
             if (S1 > S2)
                 Console.WriteLine("Площадь треугольника 1 больше");
             else if (S2 < S1)
                 Console.WriteLine("Площадь треугольника 2 больше");
             else
-                Console.WriteLine("Площадь треугольников ровна");
+                Console.WriteLine("Площади треугольников ровны");
             Console.ReadKey();
         }
     }
